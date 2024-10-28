@@ -1,0 +1,167 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+background-color: rgb(80, 95, 100);
+padding: 30px;
+text-align: center;
+color: hwb(0 93% 4%);
+font-family: Arial, sans-serif;
+font-size: 20px;
+}
+nav a:hover {
+    background-color: #646972;
+}
+header p {
+    color: #f4f4f4;
+    font-size: 15px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+header nav ul li a {
+    color: hwb(0 93% 4%);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.7cm;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.articulo {
+    display: flex;
+    justify-content: center;
+    height: 10cm;
+}
+
+p {
+    font-size: 1.3em;
+}
+h2 {
+    text-align: Center;
+    font-size: 25px;
+    color: #1b1b1b;
+}
+h3 {
+    text-align: left;
+    font-size: 17px;
+    color: #333;
+}
+.Sopa {
+    display: flex;
+    justify-content: center;
+    height: 10cm;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+explotación {
+    box-sizing: border-box;
+}
+explotación h2 {
+    text-align: center;
+}
+condiciones {
+    box-sizing: border-box;
+}
+p {
+    font-size: 15px;
+}
+h4 {
+    font-size: 16px;
+    color: hsl(0, 0%, 15%);
+}
+h2 {
+    text-align: center;
+}
+.cabum {
+    width: 900px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.cabum ul {
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: kabum 30s infinite ; 
+
+}
+.cabum li {
+    list-style: none;
+    width: 100%;
+}
+.cabum img {
+    width: 100%;
+}
+@keyframes kabum {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+
+
+
+}
+.Coco {
+    display: flex;
+    justify-content: center;
+    height: 12cm;
+}
+.piña {
+    display: flex;
+    justify-content: center;
+    height: 12cm;
+}
+.RiesgosXd {
+    width: 800px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.RiesgosXd ul {
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: riesgosxd 15s infinite ; 
+}
+.RiesgosXd li {
+    list-style: none;
+    width: 100%;
+
+}
+.RiesgosXd img {
+    width: 50%;
+
+}
+@keyframes riesgosxd {
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    90% {margin-left: -200%;}
+}

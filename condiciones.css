@@ -1,0 +1,78 @@
+* {
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(80, 95, 100);
+    padding: 20px;
+    text-align: center;
+    color: #f5eded;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #1b1b1b;
+}
+h3 {
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+}    
+h4 {
+    font-size: 18px;
+    color: hsl(0, 0%, 15%);
+}    
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: rgb(80, 95, 100);
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1cm;
+}
+.Coco {
+    display: flex;
+    justify-content: center;
+    height: 12cm;
+}
+.piña {
+    display: flex;
+    justify-content: center;
+    height: 12cm;
+}
+.RiesgosXd {
+    margin: 0px;
+    overflow: auto;
+}
+
+.RiesgosXd ul {
+    display: flex;
+    padding: 0%;
+    width: 300%;
+}
+
+.RiesgosXd li {
+    list-style: none;
+    width: 80%;
+}
+
+.RiesgosXd img {
+    display: block;
+    width: 80%;
+    height: auto;
+    scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-align: center;
+}

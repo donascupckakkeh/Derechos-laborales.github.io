@@ -1,0 +1,88 @@
+* {
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(80, 95, 100);
+    padding: 28px;
+    text-align: center;
+    color: #f5eded;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: rgb(80, 95, 100);
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5cm;
+}
+nav :hover {
+    background-color: #646972;
+}
+h2 {
+        text-align: center;
+        font-size: 25px;
+        color: #1b1b1b;
+}
+h3 {
+        text-align: left;
+        font-size: 20px;
+        color: #333;
+}    
+h4 {
+        font-size: 18px;
+        color: hsl(0, 0%, 15%);
+}    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.articulo {
+    display: flex;
+    justify-content: center;
+    height: 10cm;
+}
+explotación {
+    box-sizing: border-box;
+}
+explotación h2 {
+    text-align: center;
+}
+.cabum {
+    margin: 50px auto 0;
+    overflow: auto;
+}
+.cabum ul {
+    display: flex;
+    padding: 0%;
+    width: 400%;
+}
+.cabum li {
+    list-style: none;
+    width: 100%;
+}
+.cabum img {
+    display: block;
+    width: 100%;
+    height: auto;
+    scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-align: center;
+}
